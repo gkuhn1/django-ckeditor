@@ -16,7 +16,7 @@ setup(
     url='http://github.com/shaunsephton/django-ckeditor',
     packages = find_packages(exclude=['project',]),
     install_requires = [
-        'Pillow',
+        # 'Pillow',
         'sorl-thumbnail>=11.12',
     ],
     include_package_data=True,
